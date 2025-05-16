@@ -1,3 +1,23 @@
+# Ignore build artifacts
 *.class
 *.log
 *.tmp
+*.kotlin_metadata
+*.jar
+
+# Ignore IDE-specific files
+.idea/
+*.iml
+
+# Ignore output directories
+out/
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore temporary files
+*.tmp
+*.tmp.*
+*.tmp.*.*
+*.tmp.*.*.*
